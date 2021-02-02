@@ -17,9 +17,23 @@
                 <input type="text" name="password" id="password" placeholder="password">
                 <br>
             <div class="button">
-                <button>Sign-in</button>
+                <button onclick="sigin()">Sign-in</button>
             </div>
             </form>
+            <script>
+        function sigin() {
+            var p1 = document.getElementById("username").value;
+            var p2 = document.getElementById("password").value;
+            console.log("show =>", p1)
+            console.log("show =>", p2)
+            if(p1 === "foo" && p2 ==="bar"){
+                alert("Correct")
+            }
+            else{
+                alert("Incorrect")
+            }
+        };
+    </script>
 </div>
 </body>
 </html>
