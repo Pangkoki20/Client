@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-size: 300%;
+    margin: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0;
+    font: 1em sans-serif;
+    width: 70%;
+}
+
+.container {
+    width: 400px;
+    margin: 150px auto;
+    border: 2px rgb(108, 85, 238);
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.button {
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    justify-content: center;
+}
