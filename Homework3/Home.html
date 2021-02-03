@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"> <!--can read th -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Homework3/Home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <div class="container">
+        <h1>Login</h1>    
+        <link rel="stylesheet" href="index.css"> 
+            <form action="">
+                <input type="text" name="username" id="username" placeholder="user name">
+                <br>
+                <input type="text" name="password" id="password" placeholder="password">
+                <br>
+            <div class="button">
+                <button onclick="sigin()">Sign-in</button>
+            </div>
+            </form>
+            <script>
+        function sigin() {
+            var p1 = document.getElementById("username").value;
+            var p2 = document.getElementById("password").value;
+            console.log("show =>", p1)
+            console.log("show =>", p2)
+            if(p1 === "foo" && p2 ==="bar"){
+                alert("Correct")
+            }
+            else{
+                alert("Incorrect")
+            }
+        };
+    </script>
+</div>
+</body>
+</html>
